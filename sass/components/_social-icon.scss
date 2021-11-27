@@ -1,0 +1,42 @@
+.team-soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 16px 0 0 0;
+  padding: 0;
+}
+.team-link {
+  margin-left: 10px;
+}
+
+.team-icon {
+  width: 20px;
+  height: 20px;
+  transition: fill 250ms $cubic;
+}
+.soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+  transition: background-color 250ms $cubic;
+}
+.team-child {
+  background-color: $primary-bg-color;
+  margin-left: 10px;
+}
+.team-child:first-child {
+  margin-left: 0;
+}
+
+.soc-link {
+  &:focus,
+  &:hover {
+    fill: $primary-bg-color;
+    background-color: $accent;
+  }
+}

@@ -1,0 +1,60 @@
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}
+.icon-list {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.feature-section {
+  padding-top: 94px;
+}
+
+.feature-list {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.item {
+  width: 270px;
+  margin-left: 30px;
+}
+.item:first-child {
+  margin-left: 0;
+}
+
+.title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.feature-list .text {
+  color: $primary-text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
