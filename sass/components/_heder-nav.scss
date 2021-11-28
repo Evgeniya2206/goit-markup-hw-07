@@ -10,11 +10,11 @@
 .list-nav__header,
 .contact__list {
   margin-left: 50px;
+  &:first-child {
+    margin-left: 0;
+  }
 }
-.list-nav__header:first-child,
-.contact__list:first-child {
-  margin-left: 0;
-}
+
 .list-nav__link {
   transition: color 250ms $cubic;
   display: flex;

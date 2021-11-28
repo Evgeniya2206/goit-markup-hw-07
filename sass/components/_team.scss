@@ -16,21 +16,21 @@
   margin: 0;
   border: #f5f4fa;
 }
-.names {
+.card-names__list {
   margin-left: 30px;
-}
-.names:first-child {
-  margin-left: 0;
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
-.name {
+.card-contant__name {
   color: $title-text-color;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
   margin: 0 0 10px 0;
 }
-.post {
+.card-contant__post {
   color: $primary-text-color;
   font-size: 16px;
   font-weight: 400;

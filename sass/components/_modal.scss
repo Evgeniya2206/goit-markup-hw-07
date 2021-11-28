@@ -4,7 +4,7 @@ textarea {
   height: 120px;
 }
 
-.title-modal {
+.modal__title {
   color: $title-text-color;
   font-weight: 700;
   font-size: 20px;
@@ -17,20 +17,20 @@ textarea {
   height: 342px;
   margin: 0 40px 164px;
 }
-.form-field {
+.form__field {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   text-align: start;
 }
-.form-fields {
+.form__fields {
   flex-direction: row;
   text-align: center;
 }
-.form-field label {
+.form__field label {
   margin-bottom: 4px;
 }
-.form-field .input-modal {
+.form__field .input-modal {
   color: $primary-text-color;
   font-weight: 400;
   font-size: 12px;
@@ -40,7 +40,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 42px;
 }
-.form-field .input-modal:last-child {
+.form__field .input-modal:last-child {
   padding-left: 15px;
 }
 
@@ -111,8 +111,8 @@ textarea {
   display: block;
 }
 
-.form-field,
-.form-fields {
+.form__field,
+.formfields {
   position: relative;
 }
 .modal-form-check {

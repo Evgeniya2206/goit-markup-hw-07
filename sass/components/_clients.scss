@@ -9,14 +9,14 @@
   padding: 0;
   margin: 0 0 0 -30px;
 }
-.card {
+.card-clients__list {
   margin: 0 0 0 30px;
 }
-.logo-icon {
+.card-clients__icon {
   width: 106px;
   height: 60px;
 }
-.link-logo {
+.card-clients__logo {
   transition: fill 250ms $cubic, border 250ms $cubic;
   display: flex;
   align-items: center;
@@ -25,8 +25,6 @@
   height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
-}
-.link-logo {
   &:hover,
   &:focus {
     fill: $accent;
